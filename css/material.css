@@ -1,0 +1,114 @@
+/* === Material Section === */
+.materials-section {
+  font-family: 'Gilroy', 'Poppins', sans-serif;
+  position: relative;
+}
+
+.section-label {
+  color: #F7941D;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.materials-title {
+  font-size: 38px;
+  font-weight: 600;
+  color: #1B1B1B;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.materials-desc {
+  font-size: 17px;
+  line-height: 2;
+  color: #5A5A5A;
+  margin-bottom: 25px;
+}
+
+.materials-link {
+  color: #F7941D;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.materials-link:hover {
+  text-decoration: underline;
+}
+
+.img-box {
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.img-chair {
+  width: 223px;
+  height: 250px;
+}
+
+.img-sofa {
+  width: 223px;
+  height: 340px;
+}
+
+.img-dining {
+  top: 50%;
+  right: -110px; 
+  transform: translateY(-50%);
+  width: 600px;
+  height: 500px;
+  z-index: 1;
+}
+
+@media (max-width: 1250px) {
+  .img-chair,
+  .img-sofa,
+  .img-dining {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .materials-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .img-dining {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .materials-title {
+    font-size: 22px;
+  }
+
+  .materials-desc {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .materials-link {
+    font-size: 15px;
+  }
+
+  .img-chair,
+  .img-sofa {
+    width: 100%;
+  }
+
+  .materials-text {
+    text-align: center;
+  }
+}
+

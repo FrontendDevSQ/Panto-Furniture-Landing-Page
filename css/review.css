@@ -1,0 +1,147 @@
+.testimonials-section {
+  font-family: 'Gilroy', 'Poppins', sans-serif;
+  margin-bottom: 150px;
+}
+
+.section-label {
+  color: #F7941D;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  font-size: 35px;
+  font-weight: 600;
+  color: #1B1B1B;
+  margin-bottom: 70px;
+}
+
+.testimonial-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 15px 15px;
+  width: 370px;
+  height: 506px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 20px 20px;
+  box-shadow: 0 10px 60px rgba(0,0,0,0.2);
+}
+
+.testimonial-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* space between cards */
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.testimonial-content {
+  background: #fff;
+  border-radius: 15px;
+  padding: 60px 15px 20px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.client-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.client-name {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1B1B1B;
+  margin-bottom: 4px;
+}
+
+.client-role {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 12px;
+}
+
+.client-text {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.stars {
+  color: #F7941D;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+}
+
+.testimonial-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Arrow Common Styles */
+.arrow {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.arrow i {
+  color: #1B1B1B;
+  font-size: 18px;
+}
+
+/* Specific Positioning */
+.left-arrow {
+  left: 3px;
+}
+
+.right-arrow {
+  right: 3px;
+}
+
+/* Optional responsive hide/show or adjustments */
+@media (max-width: 768px) {
+  .arrow {
+    display: none; /* hide on mobile if needed */
+  }
+
+  .section-heading{
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+.footer-section {
+    background-color: #f5f5f5 !important;
+    padding: 80px 6% 30px 6%;
+}
+
+.panto-logo {
+    color: #000;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+}
+
+.panto-description {
+    color: #3f4449;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding-right: 20%;
+}
+
+.column-header {
+    color: #e88d40;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+ .column-list {
+    padding: 0;
+    margin: 0;
+}
+
+.column-list li {
+    margin-bottom: 5px;
+} 
+
+.column-list li a {
+    color: #3f4449;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.column-list li a:hover {
+    color: #e88d40;
+}
+
+.social-icons-list li a i {
+    margin-right: 8px;
+    width: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.social-icons-list li a:hover i {
+    color: #e88d40;
+}
+
+.footer-bottom-row {
+    padding-top: 20px;
+    align-items: center;
+}
+
+.copyright-text {
+    color: #8a8a8a;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.policy-links {
+    text-align: right; 
+}
+
+.policy-link {
+    color: #8a8a8a;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: color 0.2s;
+}
+
+.policy-link:hover {
+    color: #6c757d;
+}
+
+@media (max-width: 991.98px) {
+    .panto-description {
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+    .footer-section {
+        padding: 50px 0 20px 0;
+    }
+    .footer-top-row {
+        padding-bottom: 30px;
+    }
+    .footer-bottom-row {
+        padding-top: 20px;
+    }
+    .copyright-text, .policy-links {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    .policy-links a {
+        margin: 0 10px;
+    }
+    .privacy-link {
+        margin-left: 0 !important;
+    }
+}
+
+
+/* === Final Mobile Footer Centering Fix === */
+@media (max-width: 767.98px) {
+
+  /* Center every footer column */
+  .footer-top-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Make lists & social icons align neatly under headers */
+  .column-list,
+  .social-icons-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .column-list li,
+  .social-icons-list li {
+    list-style: none;
+    width: auto;
+  }
+
+  /* Fix the icons alignment beside text */
+  .social-icons-list li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  /* Center copyright & policy links below */
+  .footer-bottom-row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+    gap: 10px;
+    padding-top: 25px;
+  }
+
+  .policy-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .policy-link {
+    margin: 0;
+  }
+}
+/* --- Reduce vertical spacing between footer columns on mobile --- */
+@media (max-width: 767.98px) {
+  .footer-top-row > div {
+    margin-bottom: 15px !important; /* previously 25px */
+  }
+
+  .footer-section {
+    padding-top: 50px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .column-header {
+    margin-bottom: 8px;
+  }
+
+  .column-list li {
+    margin-bottom: 3px;
+  }
+}
+
+
+
