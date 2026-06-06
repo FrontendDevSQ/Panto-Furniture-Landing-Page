@@ -96,7 +96,7 @@
   margin: 0 auto;
 }
 
-/* Arrow Common Styles */
+
 .arrow {
   position: absolute;
   top: 40%;
@@ -118,7 +118,7 @@
   font-size: 18px;
 }
 
-/* Specific Positioning */
+
 .left-arrow {
   left: 3px;
 }
@@ -127,10 +127,10 @@
   right: 3px;
 }
 
-/* Optional responsive hide/show or adjustments */
+
 @media (max-width: 768px) {
   .arrow {
-    display: none; /* hide on mobile if needed */
+    display: none; 
   }
 
   .section-heading{
