@@ -1,4 +1,4 @@
-# Panto — Furniture Landing Page 🛋️
+# Panto - Furniture Landing Page 🛋️
 
 > A conversion-focused furniture e-commerce landing page built with HTML, CSS, and Bootstrap.
 
