@@ -88,7 +88,7 @@
   .more-info {
     display: inline-flex;
     align-items: center;
-    justify-content: center;  /* centers text + arrow together */
+    justify-content: center; 
     text-align: center;
     margin: 0 auto;
     width: 100%;
@@ -96,7 +96,7 @@
 
   .more-info svg {
     display: inline-block;
-    margin-left: 6px; /* small spacing between text & arrow */
+    margin-left: 6px; 
     transform: translateY(2px);
   }
 }
