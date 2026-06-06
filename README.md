@@ -39,10 +39,10 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/FrontendDevSQ/Panto---Furniture-Landing-Page.git
+git clone https://github.com/FrontendDevSQ/Panto-Furniture-Landing-Page.git
 
 # Open in browser
-cd Panto---Furniture-Landing-Page
+cd Panto-Furniture-Landing-Page
 open index.html
 ```
 No installs. No build step. Just open and view.
